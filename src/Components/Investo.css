@@ -1,0 +1,54 @@
+/* Styles for extra small devices (phones) */
+@media only screen and (max-width: 575.98px) {
+    table {
+        width: 100%;
+    }
+    th, td {
+        padding: 8px;
+        font-size: 12px;
+    }
+}
+
+/* Styles for small devices (tablets) */
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+    table {
+        width: 100%;
+    }
+    th, td {
+        padding: 10px;
+        font-size: 14px;
+    }
+}
+
+/* Styles for medium devices (desktops, laptops) */
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+    table {
+        width: 100%;
+    }
+    th, td {
+        padding: 12px;
+        font-size: 16px;
+    }
+}
+
+/* Styles for large devices (large desktops, high-resolution screens) */
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+    table {
+        width: 100%;
+    }
+    th, td {
+        padding: 14px;
+        font-size: 18px;
+    }
+}
+
+/* Styles for extra large devices (large desktops, high-resolution screens) */
+@media only screen and (min-width: 1200px) {
+    table {
+        width: 100%;
+    }
+    th, td {
+        padding: 16px;
+        font-size: 20px;
+    }
+}
